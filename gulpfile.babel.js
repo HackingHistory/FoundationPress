@@ -187,11 +187,12 @@ gulp.task('phpcbf', function () {
 
 // Start BrowserSync to preview the site in
 function server(done) {
+
   browser.init({
-    proxy: BROWSERSYNC.url,
+    // proxy: BROWSERSYNC.url,
 
     ui: {
-      port: 8080
+      port: 3001
     },
 
   });
